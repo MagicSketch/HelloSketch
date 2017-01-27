@@ -1,0 +1,24 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "HelloSketch",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "HelloSketch"
+  },
+  "identifier" : "com.example.sketch.4aedaf17-70c6-4226-adc9-a4a3a14c1cb0",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "HelloSketch"
+}

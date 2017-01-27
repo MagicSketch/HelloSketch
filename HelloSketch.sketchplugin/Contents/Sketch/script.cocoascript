@@ -1,0 +1,8 @@
+@import 'HelloSketch.framework/HelloSketch.js'
+
+var onRun = function(context) {
+  log("Hello")
+  var main = HSMain.alloc().init();
+  context.document.showMessage(main.helloText());
+  log("Hello Finish")
+};
