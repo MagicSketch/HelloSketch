@@ -10,6 +10,9 @@
 		1A8B51BF1E3B1D36008665E4 /* HelloSketch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B51B51E3B1D36008665E4 /* HelloSketch.framework */; };
 		1A8B51C41E3B1D36008665E4 /* HelloSketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B51C31E3B1D36008665E4 /* HelloSketchTests.m */; };
 		1A8B51C61E3B1D36008665E4 /* HelloSketch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B51B81E3B1D36008665E4 /* HelloSketch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8B51D91E3B23F1008665E4 /* HSMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B51D71E3B23F1008665E4 /* HSMain.h */; };
+		1A8B51DA1E3B23F1008665E4 /* HSMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B51D81E3B23F1008665E4 /* HSMain.m */; };
+		1A8B51E01E3B2687008665E4 /* HelloSketch.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A8B51DD1E3B252D008665E4 /* HelloSketch.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +25,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A8B51DF1E3B267F008665E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				1A8B51E01E3B2687008665E4 /* HelloSketch.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A8B51B51E3B1D36008665E4 /* HelloSketch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloSketch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B51B81E3B1D36008665E4 /* HelloSketch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloSketch.h; sourceTree = "<group>"; };
@@ -29,6 +45,9 @@
 		1A8B51BE1E3B1D36008665E4 /* HelloSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B51C31E3B1D36008665E4 /* HelloSketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSketchTests.m; sourceTree = "<group>"; };
 		1A8B51C51E3B1D36008665E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8B51D71E3B23F1008665E4 /* HSMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSMain.h; sourceTree = "<group>"; };
+		1A8B51D81E3B23F1008665E4 /* HSMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSMain.m; sourceTree = "<group>"; };
+		1A8B51DD1E3B252D008665E4 /* HelloSketch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HelloSketch.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				1A8B51B81E3B1D36008665E4 /* HelloSketch.h */,
+				1A8B51DD1E3B252D008665E4 /* HelloSketch.js */,
+				1A8B51D71E3B23F1008665E4 /* HSMain.h */,
+				1A8B51D81E3B23F1008665E4 /* HSMain.m */,
 				1A8B51B91E3B1D36008665E4 /* Info.plist */,
 			);
 			path = HelloSketch;
@@ -93,6 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8B51D91E3B23F1008665E4 /* HSMain.h in Headers */,
 				1A8B51C61E3B1D36008665E4 /* HelloSketch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +131,7 @@
 				1A8B51B11E3B1D36008665E4 /* Frameworks */,
 				1A8B51B21E3B1D36008665E4 /* Headers */,
 				1A8B51B31E3B1D36008665E4 /* Resources */,
+				1A8B51DF1E3B267F008665E4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -195,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8B51DA1E3B23F1008665E4 /* HSMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
